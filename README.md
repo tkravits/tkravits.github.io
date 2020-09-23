@@ -14,4 +14,19 @@ The result it three output files: an excel sheet with the permits are being revi
 
 This project to pull the PDFs from the MLS database and see if residential housing prices are being affected by the Coronavirus pandemic. This code reads the MLS PDFs and pulls the sold price, and any concessions (if there are any), then compares it as a percentage, and produces a <a href="https://github.com/tkravits/MLS_PDFproject/blob/master/Figure_1.png">chart</a>. The code is found <a href="https://github.com/tkravits/MLS_PDFproject">here</a>
 
-This is a work in progress
+<h2> GIS Projects </h2>
+
+<h3> Select then Zoom Toolbox in ArcGIS </h3>
+
+This ArcPy code is designed to select a field within a layer and zoom to it in ArcGIS Desktop. It was developed using ArcMap 10.5. This code also assumes the individual knows how to create a toolbox in ArcGIS. If help is needed to create a toolbox see: https://desktop.arcgis.com/en/arcmap/10.3/analyze/managing-tools-and-toolboxes/creating-a-custom-toolbox.htm
+
+The user will set up ahead of time what field is to be selected. Once the toolbox is opened, it will ask for the user input for the field. The code is found <a href="https://github.com/tkravits/Select-Then-Zoom">here</a>
+
+<h3> County Board of Equalization Automated Map Creation </h3>
+
+This ArcPy code is designed to automate the map creation process for the County Assessor's Office. It was developed using ArcMap 10.5. This code also assumes the individual knows how to create a toolbox in ArcGIS. If help is needed to create a toolbox see: https://desktop.arcgis.com/en/arcmap/10.3/analyze/managing-tools-and-toolboxes/creating-a-custom-toolbox.htm
+
+The user will set up ahead of time the subject property and the comparable sales that are to be mapped. The process creates two layers, applies symbology that was pre-set up ahead of time, zooms to the selected layers, and changes the title based on the subject input.
+
+This completes the map making process with the exception of creating annotation (condos cause the labeling to be screwy) and cleaning up the scale bar. The code is found <a href="https://github.com/tkravits/CBOE-Map">here</a>
+

@@ -14,6 +14,13 @@ The result it three output files: an excel sheet with the permits are being revi
 
 This project to pull the PDFs from the MLS database and see if residential housing prices are being affected by the Coronavirus pandemic. This code reads the MLS PDFs and pulls the sold price, and any concessions (if there are any), then compares it as a percentage, and produces a <a href="https://github.com/tkravits/MLS_PDFproject/blob/master/Figure_1.png">chart</a>. The code is found <a href="https://github.com/tkravits/MLS_PDFproject">here</a>
 
+<h2> Side Projects </h2>
+
+<h3> Financial Technical Analysis </h3>
+
+A work in progress on developing new technical analysis to predict future stock prices. As of now, I have been able to graph out RSI, MA, MACD, and other established technical analyses. The code for this is <a href="https://github.com/tkravits/Financials">here</a>
+
+
 <h2> GIS Projects </h2>
 
 <h3> Select then Zoom Toolbox in ArcGIS </h3>

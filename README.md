@@ -1,3 +1,5 @@
+<img src="https://avatars1.githubusercontent.com/u/54590620?s=460&u=aa8270629e3d7f7a72e81093025d2a78c6bcb3c7&v=4" alt="Profilet">
+
 <h1><strong>Taylor's Data Science Portfolio</strong></h1>
 
 This is a portfolio of various data science and GIS projects. Many of these projects were developed to clean, analyze, and present property data but there are personal projects related to outdoor adventures and the financial sector as well.

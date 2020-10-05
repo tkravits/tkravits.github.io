@@ -23,7 +23,7 @@ A work in progress on developing new technical analysis to predict future stock 
 
 <h2> GIS Projects </h2>
 
-<h3><a href="https://github.com/tkravits/Select-Then-Zoom">Select Then Zoom ArcGIS Toolbox</a></h3>
+<h3><a href="https://tkravits.github.io/Select-Then-Zoom">Select Then Zoom ArcGIS Toolbox</a></h3>
 
 <h3> County Board of Equalization Automated Map Creation </h3>
 

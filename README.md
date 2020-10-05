@@ -10,11 +10,11 @@ This is a portfolio of various data science and GIS projects. Many of these proj
 
 <h2> Side Projects </h2>
 
-<h3> <a href="https://github.com/tkravits/Financials">Financial Technical Analysis</a></h3>
+<h3> <a href="https://tkravits.github.io/Financials">Financial Technical Analysis</a></h3>
 
 <h2> GIS Projects </h2>
 
 <h3><a href="https://tkravits.github.io/Select-Then-Zoom">Select Then Zoom ArcGIS Toolbox</a></h3>
 
-<h3> <a href="https://github.com/tkravits/CBOE-Map">County Board of Equalization Automated Map Creation</a></h3>
+<h3> <a href="https://tkravits.github.io/CBOE-Map">County Board of Equalization Automated Map Creation</a></h3>
 

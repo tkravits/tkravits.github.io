@@ -10,7 +10,11 @@ This is a portfolio of various data science and GIS projects. Many of these proj
 
 <h2><strong> Side Projects </strong></h2>
 
+<h3> <a href="https://tkravits.github.io/StravaMap">Creating a Map of Activities using Strava's API</a></h3>
+
 <h3> <a href="https://tkravits.github.io/Financials">Financial Technical Analysis</a></h3>
+
+<h3> <a href="https://tkravits.github.io/Energy_Database">Pulling and Creating a Database for Energy Analysis</a></h3>
 
 <h2><strong> GIS Projects </strong></h2>
 

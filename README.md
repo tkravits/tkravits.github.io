@@ -24,3 +24,14 @@ This is a portfolio of various data science and GIS projects. Many of these proj
 
 <h3> <a href="https://tkravits.github.io/CBOE-Map">County Board of Equalization Automated Map Creation</a></h3>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180595977-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-180595977-1');
+</script>
+
+

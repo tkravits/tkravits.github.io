@@ -2,7 +2,7 @@
 layout: post
 title:  "Taylor's Github Page"
 date:   2020-10-14 14:38:09 -0600
-categories: Financials
+categories: Permits
 permalink: /:categories
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

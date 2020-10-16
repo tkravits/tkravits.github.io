@@ -2,6 +2,8 @@
 layout: "post"
 title: "Using Technical Indicators to Predict Stock Prices"
 date:   2020-10-16 14:38:09 -0600
+categories: Financials
+permalink: /:categories
 ---
 
 <h3> <a href="https://github.com/tkravits/Financials">Financial Technical Analysis</a></h3>

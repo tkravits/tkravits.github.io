@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-16T20:02:25-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Taylor Kravits’ Data Science Portfoilo</title><subtitle>This is a portfolio of various data science and GIS projects. Many of these projects were developed to clean, analyze, and present property data but there are personal projects related to outdoor adventures and the financial sector as well.</subtitle><entry><title type="html">Mapping My Activities using Strava’s API</title><link href="http://localhost:4000/strava" rel="alternate" type="text/html" title="Mapping My Activities using Strava’s API" /><published>2020-10-16T14:38:09-06:00</published><updated>2020-10-16T14:38:09-06:00</updated><id>http://localhost:4000/Strava</id><content type="html" xml:base="http://localhost:4000/strava">&lt;p&gt;I wanted to create a map of all the activies I’ve ever done. I utilized the Strava API and was able to pull all of my activities, convert Strava’s geospatial data from a google polyline to a linestring, then create a geojson from it.&lt;/p&gt;
+
+&lt;p&gt;Here is the map:&lt;/p&gt;
+
+&lt;script src=&quot;https://embed.github.com/view/geojson/tkravits/StravaMap/master/Strava_Map_Minus_Secret.geojson&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Here is the &lt;a href=&quot;https://tkravits.github.io/StravaMap&quot;&gt;Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Strava" /><summary type="html">I wanted to create a map of all the activies I’ve ever done. I utilized the Strava API and was able to pull all of my activities, convert Strava’s geospatial data from a google polyline to a linestring, then create a geojson from it.</summary></entry><entry><title type="html">Using Technical Indicators to Predict Stock Prices</title><link href="http://localhost:4000/financials" rel="alternate" type="text/html" title="Using Technical Indicators to Predict Stock Prices" /><published>2020-10-16T14:38:09-06:00</published><updated>2020-10-16T14:38:09-06:00</updated><id>http://localhost:4000/Financials</id><content type="html" xml:base="http://localhost:4000/financials">&lt;h3&gt; &lt;a href=&quot;https://github.com/tkravits/Financials&quot;&gt;Financial Technical Analysis&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A work in progress on developing new technical analysis to predict future stock prices. As of now, I have been able to graph out RSI, MA, MACD, and other established technical analyses.&lt;/p&gt;
+
+&lt;p&gt;The code to create this is &lt;a href=&quot;https://github.com/tkravits/Financials&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is an example of a graph of QQQ:&lt;/p&gt;
+
+&lt;iframe src=&quot;https://htmlpreview.github.io/?https://github.com/tkravits/Financials/blob/master/Indicator.html&quot; height=&quot;1200&quot; width=&quot;800&quot; title=&quot;description&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="Financials" /><summary type="html">Financial Technical Analysis</summary></entry><entry><title type="html">Automating the Appeal Map Process</title><link href="http://localhost:4000/appeal-map" rel="alternate" type="text/html" title="Automating the Appeal Map Process" /><published>2020-10-16T14:38:09-06:00</published><updated>2020-10-16T14:38:09-06:00</updated><id>http://localhost:4000/CBOE-Map</id><content type="html" xml:base="http://localhost:4000/appeal-map">&lt;p&gt;This ArcPy code is designed to automate the map creation process for the County Assessor’s Office. It was developed using ArcMap 10.5. This code also assumes the individual knows how to create a toolbox in ArcGIS. If help is needed to create a toolbox see: &lt;a href=&quot;https://desktop.arcgis.com/en/arcmap/10.3/analyze/managing-tools-and-toolboxes/creating-a-custom-toolbox.htm&quot;&gt;https://desktop.arcgis.com/en/arcmap/10.3/analyze/managing-tools-and-toolboxes/creating-a-custom-toolbox.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The user will set up ahead of time the subject property and the comparable sales that are to be mapped. The process creates two layers, applies symbology that was pre-set up ahead of time, zooms to the selected layers, and changes the title based on the subject input.&lt;/p&gt;
+
+&lt;p&gt;This completes the map making process with the exception of creating annotation and cleaning up the scale bar.&lt;/p&gt;
+
+&lt;p&gt;The code is found &lt;a href=&quot;https://github.com/tkravits/CBOE-Map&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Appeal-Map" /><summary type="html">This ArcPy code is designed to automate the map creation process for the County Assessor’s Office. It was developed using ArcMap 10.5. This code also assumes the individual knows how to create a toolbox in ArcGIS. If help is needed to create a toolbox see: https://desktop.arcgis.com/en/arcmap/10.3/analyze/managing-tools-and-toolboxes/creating-a-custom-toolbox.htm</summary></entry><entry><title type="html">A Select Then Zoom ArcGIS Toolbox</title><link href="http://localhost:4000/select-then-zoom" rel="alternate" type="text/html" title="A Select Then Zoom ArcGIS Toolbox" /><published>2020-10-16T14:38:09-06:00</published><updated>2020-10-16T14:38:09-06:00</updated><id>http://localhost:4000/Select-Then-Zoom</id><content type="html" xml:base="http://localhost:4000/select-then-zoom">&lt;p&gt;This ArcPy code is designed to select a field within a layer and zoom to it in ArcGIS Desktop. It was developed using ArcMap 10.5. This code also assumes the individual knows how to create a toolbox in ArcGIS. If help is needed to create a toolbox see:
+ &lt;a href=&quot;https://desktop.arcgis.com/en/arcmap/10.3/analyze/managing-tools-and-toolboxes/creating-a-custom-toolbox.htm&quot;&gt;https://desktop.arcgis.com/en/arcmap/10.3/analyze/managing-tools-and-toolboxes/creating-a-custom-toolbox.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The user will set up ahead of time what field is to be selected. Once the toolbox is opened, it will ask for the user input for the field. Example is given below:&lt;br /&gt;
+&lt;img src=&quot;https://github.com/tkravits/Select-Then-Zoom/raw/master/Select-Then-Zoom.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The code is found &lt;a href=&quot;https://github.com/tkravits/Select-Then-Zoom&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Select-Then-Zoom" /><summary type="html">This ArcPy code is designed to select a field within a layer and zoom to it in ArcGIS Desktop. It was developed using ArcMap 10.5. This code also assumes the individual knows how to create a toolbox in ArcGIS. If help is needed to create a toolbox see: https://desktop.arcgis.com/en/arcmap/10.3/analyze/managing-tools-and-toolboxes/creating-a-custom-toolbox.htm</summary></entry><entry><title type="html">Intro to Java Projects</title><link href="http://localhost:4000/java-projects" rel="alternate" type="text/html" title="Intro to Java Projects" /><published>2020-10-16T14:38:09-06:00</published><updated>2020-10-16T14:38:09-06:00</updated><id>http://localhost:4000/introToJava</id><content type="html" xml:base="http://localhost:4000/java-projects">&lt;p&gt;A repo with various introductory Java projects utilized from Programming With Mosh&lt;/p&gt;
+
+&lt;p&gt;I’ve created a &lt;a href=&quot;https://github.com/tkravits/introToJava&quot;&gt;basic mortgage calculator&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Java-Projects" /><summary type="html">A repo with various introductory Java projects utilized from Programming With Mosh</summary></entry><entry><title type="html">Housing Sales Analysis During the Coronavirus Pandemic</title><link href="http://localhost:4000/sales-analysis" rel="alternate" type="text/html" title="Housing Sales Analysis During the Coronavirus Pandemic" /><published>2020-10-16T14:38:09-06:00</published><updated>2020-10-16T14:38:09-06:00</updated><id>http://localhost:4000/Sales-Analysis</id><content type="html" xml:base="http://localhost:4000/sales-analysis">&lt;p&gt;This project was initially created to determine if Covid-19 was reducing sale prices on houses in Boulder County.&lt;/p&gt;
+
+&lt;p&gt;In order to collect the sale data necessary for analysis, I downloaded sale PDFs from the MLS database and utilized OCR to convert the PDF into a pandas dataframe. An example of the PDF I used is below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/tkravits/MLS_PDFproject/raw/master/MLS_PDF.jpg&quot; width=&quot;525&quot; height=&quot;600&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I used pandas to clean up the dataframe (seen below):&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;MLS #&lt;/th&gt;
+      &lt;th&gt;Date&lt;/th&gt;
+      &lt;th&gt;Address&lt;/th&gt;
+      &lt;th&gt;Status&lt;/th&gt;
+      &lt;th&gt;Listing Price&lt;/th&gt;
+      &lt;th&gt;Concession Amt&lt;/th&gt;
+      &lt;th&gt;Concession %&lt;/th&gt;
+      &lt;th&gt;Concession_check&lt;/th&gt;
+      &lt;th&gt;Price Range&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;907188&lt;/td&gt;
+      &lt;td&gt;6/9/2020&lt;/td&gt;
+      &lt;td&gt;3223 Iron Forge Pl 104, Boulder 80301&lt;/td&gt;
+      &lt;td&gt;SOLD&lt;/td&gt;
+      &lt;td&gt;179651&lt;/td&gt;
+      &lt;td&gt;179651&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;No Concession&lt;/td&gt;
+      &lt;td&gt;100 - 200k&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Then I ran an analysis on whether the sale priced was reduced, and by how much, and used seaborn to produce this chart:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/tkravits/MLS_PDFproject/raw/master/Figure_1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I found that the trend was basically flat from early March to early July 2020.&lt;/p&gt;
+
+&lt;p&gt;The code is found &lt;a href=&quot;https://github.com/tkravits/MLS_PDFproject&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Sales-Analysis" /><summary type="html">This project was initially created to determine if Covid-19 was reducing sale prices on houses in Boulder County.</summary></entry><entry><title type="html">Automating Building Permit Data Cleanup</title><link href="http://localhost:4000/permits" rel="alternate" type="text/html" title="Automating Building Permit Data Cleanup" /><published>2020-10-16T14:38:09-06:00</published><updated>2020-10-16T14:38:09-06:00</updated><id>http://localhost:4000/Permits</id><content type="html" xml:base="http://localhost:4000/permits">&lt;p&gt;This code allows the user to select an excel sheet from which to import given permit information. Many municipalities in Boulder County either hand enter or have extraneous data which leads to errors. The script then makes the necessary changes to the data and reformats the information.&lt;/p&gt;
+
+&lt;p&gt;This is a portion of the original dataset:&lt;/p&gt;
+&lt;div class=&quot;table-wrapper&quot;&gt;
+
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;PermitNum&lt;/th&gt;
+        &lt;th&gt;Description&lt;/th&gt;
+        &lt;th&gt;AppliedDate&lt;/th&gt;
+        &lt;th&gt;IssuedDate&lt;/th&gt;
+        &lt;th&gt;StatusCurrent&lt;/th&gt;
+        &lt;th&gt;OriginalAddress&lt;/th&gt;
+        &lt;th&gt;OriginalCity&lt;/th&gt;
+        &lt;th&gt;OriginalState&lt;/th&gt;
+        &lt;th&gt;OriginalZip&lt;/th&gt;
+        &lt;th&gt;PIN&lt;/th&gt;
+        &lt;th&gt;PermitType&lt;/th&gt;
+        &lt;th&gt;PermitWorkType&lt;/th&gt;
+        &lt;th&gt;EstProjectCost&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;RFG2020-00745&lt;/td&gt;
+        &lt;td&gt;*Total tear-off &amp;amp; reroof of SFD, 34 squares of dimensional shingles&lt;/td&gt;
+        &lt;td&gt;9/28/2020&lt;/td&gt;
+        &lt;td&gt;9/30/2020&lt;/td&gt;
+        &lt;td&gt;Issued&lt;/td&gt;
+        &lt;td&gt;1558 CRESS CT&lt;/td&gt;
+        &lt;td&gt;BOULDER&lt;/td&gt;
+        &lt;td&gt;CO&lt;/td&gt;
+        &lt;td&gt;80304&lt;/td&gt;
+        &lt;td&gt;1.46319E+11&lt;/td&gt;
+        &lt;td&gt;Roofing Replacement Permit&lt;/td&gt;
+        &lt;td&gt;Roofing Replacement Permit&lt;/td&gt;
+        &lt;td&gt;9000&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;RFG2020-00746&lt;/td&gt;
+        &lt;td&gt;*Total tear-off &amp;amp; reroof of SFD, 23 squares of dimensional shingles&lt;/td&gt;
+        &lt;td&gt;9/28/2020&lt;/td&gt;
+        &lt;td&gt;9/29/2020&lt;/td&gt;
+        &lt;td&gt;Issued&lt;/td&gt;
+        &lt;td&gt;1775 FOREST AVE&lt;/td&gt;
+        &lt;td&gt;BOULDER&lt;/td&gt;
+        &lt;td&gt;CO&lt;/td&gt;
+        &lt;td&gt;80304&lt;/td&gt;
+        &lt;td&gt;1.46319E+11&lt;/td&gt;
+        &lt;td&gt;Roofing Replacement Permit&lt;/td&gt;
+        &lt;td&gt;Roofing Replacement Permit&lt;/td&gt;
+        &lt;td&gt;10270&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+The biggest accomplishments of this code is classifying the type of permit (SCOPE) into a preset code (ex: Roofing permits are classified as RRR), attaching the correct tax ID (strap) using the address and if the address is not found in our system, using the parcel number.&lt;/p&gt;
+
+&lt;p&gt;The result it three output files: an text and excel sheet with the permits are issued for the appraisers to use to review permits:&lt;/p&gt;
+&lt;div class=&quot;table-wrapper&quot;&gt;
+
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Permit Number&lt;/th&gt;
+        &lt;th&gt;Parent Permit Number&lt;/th&gt;
+        &lt;th&gt;strap&lt;/th&gt;
+        &lt;th&gt;Description&lt;/th&gt;
+        &lt;th&gt;StreetNo_txt&lt;/th&gt;
+        &lt;th&gt;StreetDir&lt;/th&gt;
+        &lt;th&gt;StreetName&lt;/th&gt;
+        &lt;th&gt;StreetType&lt;/th&gt;
+        &lt;th&gt;Unit&lt;/th&gt;
+        &lt;th&gt;Value Total&lt;/th&gt;
+        &lt;th&gt;Issued Date&lt;/th&gt;
+        &lt;th&gt;Finaled Date&lt;/th&gt;
+        &lt;th&gt;Work Class&lt;/th&gt;
+        &lt;th&gt;SCOPE&lt;/th&gt;
+        &lt;th&gt;map_id&lt;/th&gt;
+        &lt;th&gt;nh_cd&lt;/th&gt;
+        &lt;th&gt;dor_cd&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;RFG2020-00745&lt;/td&gt;
+        &lt;td&gt; &lt;/td&gt;
+        &lt;td&gt;R0111113&lt;/td&gt;
+        &lt;td&gt;Total tear-off &amp;amp; reroof of SFD, 34 squares of dimensional shingles&lt;/td&gt;
+        &lt;td&gt;1558&lt;/td&gt;
+        &lt;td&gt; &lt;/td&gt;
+        &lt;td&gt;CRESS&lt;/td&gt;
+        &lt;td&gt;CT&lt;/td&gt;
+        &lt;td&gt; &lt;/td&gt;
+        &lt;td&gt;9000&lt;/td&gt;
+        &lt;td&gt;2020-09-30 00:00:00&lt;/td&gt;
+        &lt;td&gt; &lt;/td&gt;
+        &lt;td&gt;Roofing Replacement Permit&lt;/td&gt;
+        &lt;td&gt;RRR&lt;/td&gt;
+        &lt;td&gt; &lt;/td&gt;
+        &lt;td&gt;120&lt;/td&gt;
+        &lt;td&gt;RES&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;RFG2020-00746&lt;/td&gt;
+        &lt;td&gt; &lt;/td&gt;
+        &lt;td&gt;R0007293&lt;/td&gt;
+        &lt;td&gt;Total tear-off &amp;amp; reroof of SFD, 23 squares of dimensional shingles&lt;/td&gt;
+        &lt;td&gt;1775&lt;/td&gt;
+        &lt;td&gt; &lt;/td&gt;
+        &lt;td&gt;FOREST&lt;/td&gt;
+        &lt;td&gt;AVE&lt;/td&gt;
+        &lt;td&gt; &lt;/td&gt;
+        &lt;td&gt;10270&lt;/td&gt;
+        &lt;td&gt;2020-09-29 00:00:00&lt;/td&gt;
+        &lt;td&gt; &lt;/td&gt;
+        &lt;td&gt;Roofing Replacement Permit&lt;/td&gt;
+        &lt;td&gt;RRR&lt;/td&gt;
+        &lt;td&gt; &lt;/td&gt;
+        &lt;td&gt;115&lt;/td&gt;
+        &lt;td&gt;RES&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+&lt;/div&gt;
+&lt;p&gt;The code is found &lt;a href=&quot;https://github.com/tkravits/Building-Permit-Automation&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Permits" /><summary type="html">This code allows the user to select an excel sheet from which to import given permit information. Many municipalities in Boulder County either hand enter or have extraneous data which leads to errors. The script then makes the necessary changes to the data and reformats the information.</summary></entry></feed>

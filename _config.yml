@@ -34,6 +34,7 @@ github_username:  tkravits
 theme: minima
 plugins:
   - jekyll-feed
+markdown: kramdown
 
 defaults:
   -

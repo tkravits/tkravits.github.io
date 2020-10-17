@@ -10,10 +10,8 @@ permalink: /:categories
 
 A work in progress on developing new technical analysis to predict future stock prices. As of now, I have been able to graph out RSI, MA, MACD, and other established technical analyses.
 
+The code to create this is <a href="https://github.com/tkravits/Financials">here</a>
+
 Here is an example of a graph of QQQ:
 
-{% for post in site.posts %}
-<li> {% https://raw.githubusercontent.com/tkravits/Financials/master/Indicator.html %}
-{% endfor %}
-
-The code for this is <a href="https://github.com/tkravits/Financials">here</a>
+<iframe src="https://htmlpreview.github.io/?https://github.com/tkravits/Financials/blob/master/Indicator.html" height="1200" width="800" title="description"></iframe>

@@ -2,8 +2,4 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-<<<<<<< HEAD
-vender/
-=======
-vendor
->>>>>>> 524f4218e82aca284e2e0a90350ee1fe7807482b
+vender

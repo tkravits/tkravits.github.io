@@ -26,7 +26,7 @@ I used pandas to clean up the dataframe (seen below):
 Then I ran an analysis on whether the sale priced was reduced, and by how much, and used seaborn to produce this chart.
 
 <br><b>Results</b>
-<img src="https://github.com/tkravits/MLS_PDFproject/raw/master/Figure_1.png">
+<img src="https://raw.githubusercontent.com/tkravits/MLS_PDFproject/main/Figure_1.png">
 
 
 The code is found <a href="https://github.com/tkravits/MLS_PDFproject">here</a>

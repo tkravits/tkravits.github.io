@@ -11,10 +11,7 @@ This project was initially created to determine if Covid-19 was reducing sale pr
 My client (Boulder County Assessor's Office) used this data in their mass modeling process to see if their model was reflecting this change during the summer of 2020.
 
 <b>Methods</b><br>
-In order to collect the sale data necessary for analysis, I downloaded sale PDFs from the MLS database and utilized OCR to convert the PDF into a pandas dataframe. An example of the PDF I used is below:
-
-<img src="https://github.com/tkravits/MLS_PDFproject/raw/master/MLS_PDF.jpg" width="525" height="600">
-
+In order to collect the sale data necessary for analysis, I downloaded sale PDFs from the MLS database and utilized OCR to convert the PDF into a pandas dataframe
 
 I used pandas to clean up the dataframe (seen below):
 

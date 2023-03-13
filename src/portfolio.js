@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://tkravits.github.io',
+  title: '/TK',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Taylor Kravits',
+  role: 'Software Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'Developing web and email based legal tech applications using Python and JS, with a little bit of Rust on the side. All in between weekends and weeknights of skiing, running, mountain biking, and fly fishing',
+  resume: 'https://github.com/tkravits/tkravits.github.io/kravits_resume.pdf',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/taylor-kravits/',
+    github: 'https://github.com/tkravits',
   },
 }
 
@@ -21,51 +21,46 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Eldora Ski Resort Parking Scanner',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Scans and automatically books parking at Eldora based on a preset list.',
+    stack: ['Python'],
+    sourceCode: 'https://github.com/tkravits/ParkWhizBook',
+    livePreview: 'https://github.com/tkravits/ParkWhizBook',
   },
   {
-    name: 'Project 2',
+    name: 'Housing Price Study During 2020',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'An Analysis of Boulder County Housing Prices During the Beginning of the Coronavirus Pandemic',
+    stack: ['Python'],
+    sourceCode: 'https://github.com/tkravits/MLS_PDFproject',
+    livePreview: 'https://github.com/tkravits/MLS_PDFproject',
   },
   {
-    name: 'Project 3',
+    name: 'Fantasy Football Web Scraping',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A locally deployed tool that will pull fantasty football data from "fantasy.nfl.com/research/pointsagainst", to then put into a publicly available spreadsheet.',
+    stack: ['Javascript', 'TypeScript'],
+    sourceCode: 'https://github.com/tkravits/FFanalysis',
+    livePreview: 'https://github.com/tkravits/FFanalysis',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
+  'Python',
+  'Rust',
+  'JavaScript',
   'HTML',
   'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
   'Git',
   'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'taylor.kravits@gmail.com',
 }
 
 export { header, about, projects, skills, contact }

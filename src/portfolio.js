@@ -10,7 +10,7 @@ const about = {
   role: 'Software Engineer',
   description:
     'Developing web and email based legal tech applications using Python and JS, with a little bit of Rust on the side. All in between weekends and weeknights of skiing, running, mountain biking, and fly fishing',
-  resume: 'https://github.com/tkravits/tkravits.github.io/kravits_resume.pdf',
+  resume: 'https://drive.google.com/file/d/1Dn306-YogdhT3bDUg6zUx_ENaiVUu1KB/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/taylor-kravits/',
     github: 'https://github.com/tkravits',
